@@ -20,7 +20,7 @@ body
 }
 .navbar-brand img
 {
-    height: 40px;
+    height: 200px;
     padding-left: 20px;
 }
 .navbar-nav li
@@ -30,7 +30,8 @@ body
 .navbar-nav li a
 {
     color: fff !important;
-    font-weight: 600;
+    font-weight: 100;
+    font-size: 65;
     float: right;
     text-align: left;
 }
@@ -117,9 +118,46 @@ body
 .reviews-content
 {
     padding-left: 20px;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 #reviews ul li
 {
     margin: 10px 0;
 }
+#reviews ul li
+{
+    margin-left: 20px;
+}
+.col-md-6
+{
+    padding-top: 50px;
+}
+
+/*------ORDER--------*/
+
+.button-wrapper
+{
+    display: block;
+  text-align: center;
+}
+.button {
+    border: none;
+    border-radius: 3em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: inline-block;
+    font-size: 1em;
+    padding: 1em 2em;
+    width: auto;
+  }
+  .cta-button {
+    background-color: #ed2224;
+    color: #fff !important;
+  }
+  .cta-button:hover {
+    background-color: #414141;
+  }
+  #order
+  {
+      margin: 50px 0;
+      padding-bottom: 50px;
+  }
