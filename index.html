@@ -1,60 +1,116 @@
-<!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: Add proper head tag to provide a page description for search
-             engines. -->
-        <title>API Superstore</title>
-        <!-- Bootstrap CSS Framework -->
-        <!-- You can remove the ``link`` tags below if you don't want to use
-             Bootstrap with your site. If you choose to use Bootstrap, be sure
-             to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
 
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-        <!-- End Bootstrap CSS Framework -->
+<head>
+    <title>Huschle Guitars</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-        <!-- FontAwesome (https://fontawesome.com/how-to-use/svg-with-js#basic-use) -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="images/huschleLogo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ML-AUTO">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Order</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
 
-        <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
-             support bookmarking. -->
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="favicon" href="favicon.ico">
+    <!------BANNERS-------->
 
-    </head>
-    <body>
-        <!-- Note: If you do not see a camera icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how FontAwesome is linked to this page. -->
-        <h1><span class="fas fa-camera-retro"></span> Hello World!</h1>
-        <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="promo-title">CUSTOM ELECTRIC GUITARS</p>
+                    <p>Subscribe</p>
+                    <a href="#"><img src="images/youtube.png" class="play-btn"> Watch Demo</a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="images/guitar.png" class="img-fluid">
+                </div>
+            </div>
 
-        <!-- TODO: Create an area to put the explainer video. -->
+            <!-------FEATURES-------->
 
-        <!-- TODO: Create an area to put the long product description. -->
+            <section id="features">
+                <div class="container text-center">
+                    <h1 class="title">FEATURES</h1>
+                    <div class="row text-center">
+                        <div class="col-md-4 features">
+                            <img src="images/pickups.png" class="feature-img">
+                            <h4>Top Quality Pickups</h4>
+                            <p>Each one of our instruments is equipped with the highest quality pickups on the market.
+                                Whether you're playing a strat or sitting heavy on some humbuckers, your tone will
+                                elevate instantly.</p>
+                        </div>
+                        <div class="col-md-4 features">
+                            <img src="images/pickups.png" class="feature-img">
+                            <h4>Top Quality Pickups</h4>
+                            <p>Each one of our instruments is equipped with the highest quality pickups on the market.
+                                Whether you're playing a strat or sitting heavy on some humbuckers, your tone will
+                                elevate instantly.</p>
+                        </div>
+                        <div class="col-md-4 features">
+                            <img src="images/pickups.png" class="feature-img">
+                            <h4>Top Quality Pickups</h4>
+                            <p>Each one of our instruments is equipped with the highest quality pickups on the market.
+                                Whether you're playing a strat or sitting heavy on some humbuckers, your tone will
+                                elevate instantly.</p>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary">All Features</button>
+                </div>
+            </section>
 
-        <!-- TODO: Create an area to put customer testimonials. -->
+            <!--------Reviews--------->
 
-        <!-- TODO: Create an area to show features. -->
+            <section id="reviews">
+                <div class="container">
+                    <h1 class="title text-center">REVIEWS</h1>
+                    <div class="row">
+                        <div class="col-md-6 reviews">
+                            <p class="reviews-title">Read what customers have to say about our products</p>
+                            <ul class="reviews-content">
+                                <li>"These guitars are nothing short of incredible. I have owned mine for nearly three
+                                    years now and I can't get enough of it. The sound has a vintage feel but a modern
+                                    crispness to it and the finish is just beautiful. I'm never letting this one go."
+                                </li>
+                                <li>"These guitars are nothing short of incredible. I have owned mine for nearly three
+                                        years now and I can't get enough of it. The sound has a vintage feel but a modern
+                                        crispness to it and the finish is just beautiful. I'm never letting this one go."
+                                    </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                        <img src="images/happy.png" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
 
-        <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
 
-        <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
+            </section>
 
-        <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
+</body>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    </body>
 </html>
